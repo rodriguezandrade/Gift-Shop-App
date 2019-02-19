@@ -1,0 +1,6 @@
+C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\TestGiftShopApp.UnitTests\bin\Debug\TestGiftShopApp.UnitTests.dll
+C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\TestGiftShopApp.UnitTests\bin\Debug\TestGiftShopApp.UnitTests.pdb
+C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\TestGiftShopApp.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\TestGiftShopApp.UnitTests\obj\Debug\TestGiftShopApp.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\TestGiftShopApp.UnitTests\obj\Debug\TestGiftShopApp.UnitTests.dll
+C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\TestGiftShopApp.UnitTests\obj\Debug\TestGiftShopApp.UnitTests.pdb

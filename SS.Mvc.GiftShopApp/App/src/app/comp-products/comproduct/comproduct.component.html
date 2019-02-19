@@ -1,0 +1,129 @@
+<div class="container">
+    <div class="panel panel-info">
+        <div class="panel-heading"><b>
+                <h2>{{tittle}}</h2>
+            </b></div>
+        <div class="panel-body">
+
+            <div class="row">
+                <div class="form-group col-md-6">
+                    <label for="ejemplo_email_3" class="col-md-4 control-label" name="nombre">Product Name</label>
+                    <div class="col-md-8">
+                        <span tabindex="0" data-toggle="tooltip" title="Product Name">
+                            <input class="form-control" id="name" name="name" [(ngModel)]="value.name" placeholder="Product"
+                                required>
+                        </span>
+                        <!-- <div class="validation-error" *ngIf="detail.invalid && detail.touched">This Field is
+                                required.</div> -->
+                    </div>
+                </div>
+
+               
+            </div>
+
+            <div class="row">
+                <div class="form-group col-md-6">
+
+                    <label for="ejemplo_email_3" class="col-md-4 control-label">Cost</label>
+                    <div class="row">
+                        <div class="col-xs-4 col-sm-3 col-md-4 col-lg-4">
+                            <span tabindex="0" data-toggle="tooltip" title="Product Cost">
+                                <input id="cost" class="form-control" [(ngModel)]="value.cost" placeholder="Cost"
+                                    required>
+                            </span>
+                            <!-- <div class="validation-error" *ngIf="cost.invalid && cost.touched">
+                                This Field is required.
+                            </div> -->
+                        </div>
+                        <div class="col-xs-8 col-sm-9 col-md-8 col-lg-8">
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="ejemplo_email_3" class="col-md-5 col-lg-4 control-label">Cant</label>
+
+                    <div class="col-md-7 col-lg-8">
+                        <span tabindex="0" data-toggle="tooltip" title="Product Quantity">
+                            <input type="number" id="amount" value="1" class="form-control" name="cant" [(ngModel)]="value.cant"
+                                placeholder="Cant" required>
+                        </span>
+                        <!-- <div class="validation-error" *ngIf="cant.invalid && cant.touched">
+                            This Field is required.
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="form-group col-md-6">
+                    <label for="ejemplo_email_3" class="col-md-4 control-label">Product Category</label>
+                    <div class="col-md-8">
+                        <div class="form-group mr-sm-2">
+                            <select [(ngModel)]="value.categoryId" class="form-control">  
+                                  <option disabled selected value> -- Select an Category -- </option>    
+                                <option  *ngFor='let category of categories' [value]="category.id">{{category.name}}</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label for="ejemplo_email_3" class="col-md-5 col-lg-4 control-label">Status</label>
+
+                    <div class="col-md-7 col-lg-8">
+                        <span class="d-inline-block" tabindex="0" data-toggle="tooltip" title="Product Status">
+                            <input class="form-control" id="status" name="status" [(ngModel)]="value.status"
+                                placeholder="Status" required>
+                        </span>
+                        <!-- <div class="validation-error" *ngIf="status.invalid && status.touched">
+                            This Field is required.
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="form-group col-md-6">
+                        <label for="ejemplo_email_3" class="col-md-5 col-lg-4 control-label">Details of Product</label>
+    
+                        <div class="col-md-7 col-lg-8">
+                            <div class="form-group  ">
+                                <span tabindex="0" data-toggle="tooltip" title="Product Details">
+                                    <textarea id="detail" class="form-control" [(ngModel)]="value.detail" placeholder="Details"
+                                        rows="3" required>
+                                    </textarea>
+                                </span>
+                                <!-- <div class="validation-error" *ngIf="detail.invalid && detail.touched">This Field is
+                                    required.</div> -->
+                            </div>
+                        </div>
+                        
+                    <!-- <div class="form-group col-md-6">
+                            <img [src]="imageUrl" style="width:250px; height:200px">
+                            <input type="file" accept="image/*" (change)="handleFileInput($event.target.file)">
+                        </div>
+     -->
+                    </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-offset-5 col-sm-2 text-center">
+
+                    <div class="form-group ">
+                        <button id="save" type="submit" class="btn btn-lg bt-block btn-success" title="Add New Product"
+                            (click)='onSave()' [disabled]='!canSave'>
+                            <i class="fa fa-floppy-o"></i>
+                            Save Product
+                        </button>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

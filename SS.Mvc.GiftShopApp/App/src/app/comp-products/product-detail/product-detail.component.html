@@ -1,0 +1,103 @@
+<form id="form" #productForm="ngForm" (ngSubmit)="onSubmit(productForm)">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="container-fliud">
+          <div class="wrapper row">
+            <div class="preview col-md-6">
+
+              <div class="preview-pic tab-content">
+                <img src="https://erudinsky.com/system/posts/79-mount-aws-s3-bucket-to-your-debian-micro.jpg?1493670420"
+                  class="card-img-top" alt="Card image" />
+                <div class="tab-pane active"> </div>
+              </div>
+            </div>
+            <div class="details col-md-6">
+              <h3 class="product-title">{{product.name}}</h3>
+              <div class="rating">
+                <div class="stars">
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <span class="review-no">41 reviews</span>
+              </div>
+              <p class="product-description">{{product.detail}}</p>
+              <h4 class="price">current price: <span>${{product.cost}}</span></h4>
+              <p class="vote"><strong>91%</strong> of buyers enjoyed this product! <strong>(87 votes)</strong></p>
+
+              <div class="action">
+                <div class="btn-group mr-2">
+                  <div class="btn-group mr-2">
+                    <a class="mr-2">Quantity:</a><input type="number" class="form-control text-center" value="1" name="amount"
+                      #amount>
+                  </div>
+                  <div class="btn-group mr-2">
+                    <a id="addCart" type="submit" class="btn btn-sm btn-primary float-right" (click)="addtoCart(product, amount.value)">
+                      <i class="fa fa-cart-plus">
+                      </i>
+                      <h5> Add to Cart</h5>
+                    </a>
+                  </div>
+                  <a type="submit" class="btn btn-sm btn-primary float-right " href="#">
+                    <h5>Back</h5>
+                  </a>
+                </div>
+              </div>
+              <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+
+</form>
+
+
+
+
+
+<!-- 
+<div>
+    <div class="container">
+      <div class="row">
+
+        <div class="row col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+          <div class="card col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4" style="max-width:319px;">
+            <img src="https://borinhalbich.com/wp-content/uploads/2018/06/placeholder.png" class="card-img-top" alt="Card image" />
+            <div class="card-block">
+               <input type="hidden" name="id" #id="ngModel" [(ngModel)]="CartitemService.selectedCartItem.id">
+              <input type="hidden" name="productid" #productid="ngModel" [(ngModel)]="CartitemService.selectedCartItem.productid">   
+              <h4 class="card-title">Product Name: {{product.name}}</h4>
+              <p class="card-text">Details: {{product.detail}}</p>
+              <div class="rating-wrap">
+                <div class="label-rating">{{product.category}}</div>
+                <div class="label-rating">{{product.status}} </div>
+              </div>
+              <p class="card-text"></p>
+              <div class="bottom-wrap">
+                <div class="btn-group mr-2">
+                </div>
+                
+                <div class="btn-group mr-2">
+                  <div class="btn-group mr-2">
+                    <span class="price-new">Cost: {{product.cost}}</span>
+                  </div>
+                  <del class="price-old">Old Cost:{{product.cost}}</del>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div> -->

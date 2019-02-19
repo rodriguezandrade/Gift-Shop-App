@@ -1,0 +1,64 @@
+<div class="jumbotron text-center" style="margin-top: 0%">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link" href="#">
+            <h5>Home</h5>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="Cart" [routerLink]="['/cart']" href="#">
+            <h5>My Car</h5>
+          </a>
+        </li>
+        <li class="nav-item" [hidden]="!globals.user">
+          <a class="nav-link" [routerLink]="['/shopping']">
+            <h5>My Shoppings</h5>
+          </a>
+        </li>
+        
+        <li class="nav-item" [hidden]="!globals.isAdmin()">
+            <a id="categories" class="nav-link" [routerLink]="['/category']">
+              <h5>Categories</h5>
+            </a>
+          </li>
+        <li class="nav-item" [hidden]="!globals.isAdmin()">
+          <a id="productAdministrator" class="nav-link" [routerLink]="['/products']">
+            <h5>Product Administrator</h5>
+          </a>
+        </li>
+      </ul>
+      <div [hidden]="globals.user">
+        <div class="btn-group mr-2">
+          <button id="sign" type="button" [routerLink]="['/signin']" class="btn btn-success"><i class="fa fa-sign-in">
+            </i> Sign
+            in</button>
+        </div>
+        <button id="signup" type="button" [routerLink]="['/signup']" class="btn btn-primary"><i class="fa fa-user-plus">
+          </i>
+          Sign up</button>
+
+      </div>
+
+      <div [hidden]="!globals.user">
+          <b><a id="nameuser"  class="btn-group mr-2">Welcome: {{globals.user ? globals.user.userName: 'No user'}}</a> </b>
+          <div class="btn-group mr-2">
+        <button id="logout" type="button" (click)="logout()" class="btn btn-primary"><i class="fa fa-user-plus"> </i>
+          Log out</button>
+          </div>
+      
+        <!-- <b><a id="mail" class="nav-link">{{globals.user.email ? globals.user.email: 'No Mail'}}</a> </b>
+        <b><a   style="color:#FFFFFF" id="role" class="nav-link">{{globals.user.role ? globals.user.role: 'No Role'}}</a> </b> -->
+      </div>
+
+    </div>
+  </nav>
+  <h1>Gift Shop</h1>
+  <p>Buy what you want ... and give it away!</p>
+
+</div>
+
+<router-outlet></router-outlet>

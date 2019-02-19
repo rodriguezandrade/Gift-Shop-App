@@ -1,0 +1,318 @@
+2018-10-17 09:18:15.3368 - ERROR: Unhandled Web Api Exception.
+EXCEPTION: System.NotImplementedException: The method or operation is not implemented.
+   at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.GetSale(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 41
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.GetSales() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 38
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()    at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.GetSale(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 41
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.GetSales() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 38
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()
+
+2018-10-17 10:12:02.1553 - ERROR: Unhandled Web Api Exception.
+EXCEPTION: System.NotImplementedException: The method or operation is not implemented.
+   at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 42
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()    at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 42
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()
+
+2018-10-17 10:12:03.1044 - ERROR: Unhandled Web Api Exception.
+EXCEPTION: System.NotImplementedException: The method or operation is not implemented.
+   at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 42
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()    at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 42
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()
+
+2018-10-17 10:15:21.4162 - ERROR: Unhandled Web Api Exception.
+EXCEPTION: System.NotImplementedException: The method or operation is not implemented.
+   at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 53
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()    at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 53
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()
+
+2018-10-17 10:17:24.0514 - ERROR: Unhandled Web Api Exception.
+EXCEPTION: System.NotImplementedException: The method or operation is not implemented.
+   at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 42
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()    at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 42
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()
+
+2018-10-17 10:25:37.1321 - ERROR: Unhandled Web Api Exception.
+EXCEPTION: System.NotImplementedException: The method or operation is not implemented.
+   at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 42
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()    at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 42
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()
+
+2018-10-17 10:27:19.6110 - ERROR: Unhandled Web Api Exception.
+EXCEPTION: System.NotImplementedException: The method or operation is not implemented.
+   at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 42
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()    at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 42
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()
+
+2018-10-17 10:27:36.5065 - ERROR: Unhandled Web Api Exception.
+EXCEPTION: System.NotImplementedException: The method or operation is not implemented.
+   at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 42
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()    at SS.Mvc.GiftShopApp.Core.Repository.SaleRepository.SS.Mvc.GiftShopApp.Core.Repository.Interfaces.ISaleRepository.Save(Sale entity) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Repository\SaleRepository.cs:line 42
+   at SS.Mvc.GiftShopApp.Core.Services.SaleService.Checkout(Int32 userId) in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp.Core\Services\SaleService.cs:line 63
+   at SS.Mvc.GiftShopApp.Controllers.Api.SalesController.Checkout() in C:\Users\jeandrade\Documents\Visual Studio 2015\Projects\SS.Mvc.GiftShopApp\SS.Mvc.GiftShopApp\Controllers\Api\SalesController.cs:line 149
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Dispatcher.HttpControllerDispatcher.<SendAsync>d__15.MoveNext()
+

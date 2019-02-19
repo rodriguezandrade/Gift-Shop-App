@@ -1,0 +1,41 @@
+<div class="container">
+  <div class="form-group ">
+    <button id="save" type="submit" class="btn btn-lg bt-block btn-success" [routerLink]='["/products","new" ]' title="Add New Product">
+      <i class="fa fa-floppy-o"></i>
+      Add Product
+    </button>
+  </div>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Details</th>
+        <th scope="col">Cost</th>
+        <th scope="col">Category</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of items" [class.selected]="product.id ===  product.id">
+        <th scope="row"> </th>
+        <td id="namelist">{{product.name}}</td>
+        <td>{{product.detail}}</td>
+        <td id="cost{{product.cost}}">{{product.cost}}</td>
+        <td>{{product.categoryName}}</td>
+        <td>{{product.status}}</td>
+        <td>
+          <a id="{{product.id}}" [routerLink]="['/products', product.id]" class="btn text-info">
+            <i class="fa fa-pencil-square-o">
+            </i>
+          </a>
+          <a id="deleteProduct" class="btn text-danger" (click)="onDelete(product.id)">
+            <i class="fa fa-trash-o">
+            </i>
+          </a>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>
